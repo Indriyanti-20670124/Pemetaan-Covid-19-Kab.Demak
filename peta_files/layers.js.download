@@ -1,0 +1,37 @@
+ol.proj.get("EPSG:4326").setExtent([110.310699, -7.155063, 110.962983, -6.701728]);
+var wms_layers = [];
+var format_KabDemak_0 = new ol.format.GeoJSON();
+var features_KabDemak_0 = format_KabDemak_0.readFeatures(json_KabDemak_0, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:4326'});
+var jsonSource_KabDemak_0 = new ol.source.Vector({
+    attributions: [new ol.Attribution({html: '<a href=""></a>'})],
+});
+jsonSource_KabDemak_0.addFeatures(features_KabDemak_0);var lyr_KabDemak_0 = new ol.layer.Vector({
+                declutter: true,
+                source:jsonSource_KabDemak_0, 
+                style: style_KabDemak_0,
+    title: 'Kab. Demak<br />\
+    <img src="styles/legend/KabDemak_0_0.png" /> 1359<br />\
+    <img src="styles/legend/KabDemak_0_1.png" /> 1840<br />\
+    <img src="styles/legend/KabDemak_0_2.png" /> 2838<br />\
+    <img src="styles/legend/KabDemak_0_3.png" /> 459<br />\
+    <img src="styles/legend/KabDemak_0_4.png" /> 466<br />\
+    <img src="styles/legend/KabDemak_0_5.png" /> 472<br />\
+    <img src="styles/legend/KabDemak_0_6.png" /> 509<br />\
+    <img src="styles/legend/KabDemak_0_7.png" /> 565<br />\
+    <img src="styles/legend/KabDemak_0_8.png" /> 680<br />\
+    <img src="styles/legend/KabDemak_0_9.png" /> 691<br />\
+    <img src="styles/legend/KabDemak_0_10.png" /> 777<br />\
+    <img src="styles/legend/KabDemak_0_11.png" /> 782<br />\
+    <img src="styles/legend/KabDemak_0_12.png" /> 975<br />\
+    <img src="styles/legend/KabDemak_0_13.png" /> <br />'
+        });
+
+lyr_KabDemak_0.setVisible(true);
+var layersList = [lyr_KabDemak_0];
+lyr_KabDemak_0.set('fieldAliases', {'ID': 'ID', 'ID_Kec': 'ID_Kec', 'Kecamatan': 'Kecamatan', 'kode_prop': 'kode_prop', 'kode_kab': 'kode_kab', 'covid19': 'covid19', });
+lyr_KabDemak_0.set('fieldImages', {'ID': 'TextEdit', 'ID_Kec': 'TextEdit', 'Kecamatan': 'TextEdit', 'kode_prop': 'TextEdit', 'kode_kab': 'TextEdit', 'covid19': 'TextEdit', });
+lyr_KabDemak_0.set('fieldLabels', {'ID': 'inline label', 'ID_Kec': 'inline label', 'Kecamatan': 'inline label', 'kode_prop': 'inline label', 'kode_kab': 'inline label', 'covid19': 'inline label', });
+lyr_KabDemak_0.on('precompose', function(evt) {
+    evt.context.globalCompositeOperation = 'normal';
+});

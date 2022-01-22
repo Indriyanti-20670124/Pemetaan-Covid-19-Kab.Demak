@@ -1,0 +1,126 @@
+var size = 0;
+var placement = 'point';
+function categories_KabDemak_0(feature, value, size, resolution, labelText,
+                       labelFont, labelFill) {
+                switch(value.toString()) {case '1359':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,255,178,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '1840':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,240,152,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '2838':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,224,125,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '459':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,208,99,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '466':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(254,190,84,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '472':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(254,170,75,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '509':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(254,151,65,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '565':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(251,128,55,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '680':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(247,103,47,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '691':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(243,78,38,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '777':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(237,54,32,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '782':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(221,36,34,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+case '975':
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(205,18,36,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;
+default:
+                    return [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.89)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(189,0,38,0.89)'}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement)
+    })];
+                    break;}};
+
+var style_KabDemak_0 = function(feature, resolution){
+    var context = {
+        feature: feature,
+        variables: {}
+    };
+    var value = feature.get("covid19");
+    var labelText = "";
+    size = 0;
+    var labelFont = "14.625px \'Bodoni MT\', sans-serif";
+    var labelFill = "rgba(0, 0, 0, 1)";
+    var textAlign = "left";
+    var offsetX = 8;
+    var offsetY = 3;
+    var placement = 'point';
+    if (feature.get("Kecamatan") !== null) {
+        labelText = String(feature.get("Kecamatan"));
+    }
+    
+var style = categories_KabDemak_0(feature, value, size, resolution, labelText,
+                          labelFont, labelFill);
+
+    return style;
+};
